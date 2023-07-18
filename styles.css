@@ -1,0 +1,242 @@
+a {
+    color: #11999E;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.a-texto {
+    color: #1dafaf;
+    margin: 0px;
+}
+
+.a-texto:hover {
+    color: purple;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    color: white;
+    line-height: 2;
+    padding: 40px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-secondary{
+    width: 5%;
+    height: 80%;
+    margin-top: 5%;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.cartaz{
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 60px;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+}
+
+.cardfilme{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px -4px;
+    transition: all 0.3s ease 0s;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 320px;
+    margin: 0;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.contact-me {
+    line-height: 3;
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.coding-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.div-texto{
+    color: black;
+    padding: 0 200px;
+    text-align: justify;
+}
+
+.div-link{
+    justify-content: center;
+}
+
+.figcaption{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 20px 0;
+}
+
+h1 {
+    line-height: 1;
+    font-size: 90px;
+    font-family: 'Lobster', cursive;
+}
+
+h2 {
+    color: #11999E;
+    margin-bottom: 30px;
+}
+
+.h2-top {
+    color: black;
+    font-weight: normal;
+}
+
+h3{
+    color: #66BFBF;
+}
+
+hr {
+    border: dashed #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+}
+
+.imgfilme{
+    width: 100%; 
+    height: 250px;
+    border-radius: 10px;
+}
+
+.img_carrossel{
+    width: 420px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.link{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+}
+#link{
+    cursor: pointer;
+}
+.link:hover{text-decoration: solid; color: rebeccapurple;}
+
+.menu-container {
+    background-color: rgb(167, 193, 184);
+    border-radius: 13px;
+    opacity: 70%;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.menu-bar {
+    color: black;
+}
+
+.menu-container li {
+    display: inline;
+    width: 15%;
+}
+
+.middle-container {
+    margin: 100px;
+}
+
+.profile {
+    margin: 0 auto 0 auto;
+    width: 80%;
+}
+
+.profile-img {
+    width: 15%;
+    height: auto;
+}
+
+.programmer-img {
+    width: 40%;
+    height: auto;
+}
+
+.skills {
+    margin: 50px auto 50px auto;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: auto;
+    text-align: left;
+    width: 50%;
+}
+
+.softskills-img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.top-container {
+    background-color: rgb(194, 247, 229);
+    border-radius: 5%;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.ul-container {
+    padding: 0;
+}
+
